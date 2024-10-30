@@ -1,0 +1,74 @@
+.lsq_box{
+	background:none repeat scroll 0 0 #BFBFBF;
+	background-color:#BFBFBF;
+	color:#434542;
+    position: fixed;
+	border-bottom: 1px solid #D5D5D5;
+    min-height: 30px;
+    left: 0;
+    line-height: 30px;
+    text-align: center;
+    top: 0;
+    width: 100%;
+	padding:7px 2px 0 2px;
+    z-index: 999999;
+}
+
+.lsq_close_box{
+	margin-top:auto;
+	font-family:Courier New;
+	font-size:22px;
+    padding:2px 5px 2px 2px;
+    display:inline;
+    position:absolute;
+    right:2px;
+    border-radius:4px;
+    cursor:pointer;
+	min-height: 30px;
+}
+
+span.lsq_link_text{
+	font-size:13px;
+	padding:5px 9px 5px 6px;
+	background-color:#158AAB;
+	border-radius:2px;
+	text-align:center;
+	margin: -7px 0 0 5px;
+	text-shadow: 0 0 0 ;
+	min-height: 30px;
+	
+}
+span.lsq_link_text:hover{
+	-moz-box-shadow: inset 0 0 4px #000000;
+	-webkit-box-shadow: inset 0 0 4px #000000;
+	box-shadow: inset 0 0 4px #000000;
+}
+a:hover{
+text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+div.lsq_nothing{
+	min-height: 40px;
+	display:none;
+	position:relative;
+	
+}
+
+span.lsq_message{
+	margin: 10px 0 0 5px;
+	font-size: 17px;
+	text-shadow:0px 1px 0px black;
+	line-height:30px;
+	min-height:30px;
+}
+p.lsq_message_bar{
+	
+	min-height:35px;
+	margin:4px;
+}
+
+
